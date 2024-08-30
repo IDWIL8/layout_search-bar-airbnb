@@ -16,17 +16,40 @@
       href="style.css"
     />
   </head>
-  <body>
-    <input
-      type="text"
-      data-qa="keypress"
-      placeholder="Try “Los Angeles“"
-    />
 
-    <input
-      type="text"
-      data-qa="hover"
-      placeholder="Try “Los Angeles“"
-    />
+  <body>
+    <div
+      class="big"
+      data-qa="big"
+    >
+      <img
+        class="big-icon"
+        src="images/Search.svg"
+        alt="icon"
+      />
+      <input
+        class="big-input"
+        type="text"
+        data-qa="keypress big"
+        placeholder="Try “Los Angeles“"
+      />
+    </div>
+
+    <div
+      class="small"
+      data-qa="small"
+    >
+      <img
+        class="small-icon"
+        src="images/Search.svg"
+        alt="icon"
+      />
+      <input
+        class="small-input"
+        type="text"
+        data-qa="hover"
+        placeholder="Try “Los Angeles“"
+      />
+    </div>
   </body>
 </html>
