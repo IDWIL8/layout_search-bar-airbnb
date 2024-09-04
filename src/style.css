@@ -12,10 +12,12 @@
 
 body {
   min-width: 300;
+  padding: 0;
 }
 
 .big {
   display: flex;
+  box-sizing: border-box;
   align-items: center;
   height: 70px;
   border: 1px solid #ccc;
@@ -40,7 +42,10 @@ body {
 
 .big-input {
   position: relative;
+  box-sizing: border-box;
   padding-left: 17px;
+  padding-top: 0;
+  padding-bottom: 0;
   height: 32px;
   width: 200px;
   border: none;
@@ -61,7 +66,7 @@ body {
 .small {
   display: flex;
   align-items: center;
-  height: 42px;
+  height: 40px;
   font-size: 14px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -81,7 +86,8 @@ body {
 
 .small-input {
   position: relative;
-  padding-left: 17px;
+  padding-left: 10px;
+  box-sizing: border-box;
   height: 32px;
   width: 200px;
   border: none;
