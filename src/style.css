@@ -11,7 +11,7 @@
 }
 
 body {
-  min-width: 300;
+  min-width: 300px;
   padding: 0;
 }
 
@@ -36,7 +36,7 @@ body {
 
 .big-icon {
   padding-left: 26px;
-  background-image: url(./images/Search.svg);
+  background-image: url(./images/search.svg);
   background-position: 26px;
   background-repeat: no-repeat;
   width: 19px;
@@ -54,7 +54,6 @@ body {
   border: none;
   font-family: 'Avenir_book', sans-serif;
   font-size: 16px;
-  line-height: 21.86px;
   font-weight: normal;
   color: #3d4e61;
   text-align: left;
@@ -83,6 +82,9 @@ body {
 
 .small-icon {
   padding-left: 13px;
+  background-image: url(./images/search.svg);
+  background-position: 13px;
+  background-repeat: no-repeat;
   width: 11px;
   height: 11px;
 }

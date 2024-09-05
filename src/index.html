@@ -18,35 +18,34 @@
   </head>
 
   <body>
-    <div
+    <form
       class="big"
       data-qa="big"
     >
       <div class="big-icon"></div>
+      <label>
+        <input
+          class="big-input"
+          type="text"
+          data-qa="keypress big"
+          placeholder="Try “Los Angeles“"
+        />
+      </label>
+    </form>
 
-      <input
-        class="big-input"
-        type="text"
-        data-qa="keypress big"
-        placeholder="Try “Los Angeles“"
-      />
-    </div>
-
-    <div
+    <form
       class="small"
       data-qa="small"
     >
-      <img
-        class="small-icon"
-        src="images/Search.svg"
-        alt="icon"
-      />
-      <input
-        class="small-input"
-        type="text"
-        data-qa="hover"
-        placeholder="Try “Los Angeles“"
-      />
-    </div>
+      <div class="small-icon"></div>
+      <label>
+        <input
+          class="small-input"
+          type="text"
+          data-qa="hover"
+          placeholder="Try “Los Angeles“"
+        />
+      </label>
+    </form>
   </body>
 </html>
