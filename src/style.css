@@ -36,6 +36,9 @@ body {
 
 .big-icon {
   padding-left: 26px;
+  background-image: url(./images/Search.svg);
+  background-position: 26px;
+  background-repeat: no-repeat;
   width: 19px;
   height: 19px;
 }
